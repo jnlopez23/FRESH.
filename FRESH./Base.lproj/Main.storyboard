@@ -13,26 +13,90 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FRESH_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75H-QE-lxC">
+                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home" id="IT4-eA-drl"/>
+                                    <barButtonItem title="Share" id="NuB-dR-sSF">
+                                        <connections>
+                                            <segue destination="Y5A-uo-L2q" kind="show" id="3HX-EM-vqu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Map" id="DQz-7W-zu7">
+                                        <connections>
+                                            <segue destination="Mef-KR-nIy" kind="show" id="pRQ-eY-Umm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" id="WPc-8j-4ST">
+                                        <connections>
+                                            <segue destination="Hls-CA-lyg" kind="show" id="r5r-tc-npc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-d5-gcd">
+                                <rect key="frame" x="186" y="142" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="I1H-iR-CaT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26" y="82"/>
+            <point key="canvasLocation" x="-26.086956521739133" y="81.696428571428569"/>
         </scene>
         <!--Share View Controller-->
         <scene sceneID="mBY-op-F7d">
             <objects>
                 <viewController id="Y5A-uo-L2q" customClass="ShareViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Z7-Vg-rkM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cw1-Nt-R5X">
+                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home" id="Zxj-VJ-Li3">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="WyI-jW-R5e"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Share" id="xzv-W4-gKK"/>
+                                    <barButtonItem title="Map" id="UgG-bM-Sv1">
+                                        <connections>
+                                            <segue destination="Mef-KR-nIy" kind="show" id="ZE7-dd-Rp0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" id="2u2-bF-g4k">
+                                        <connections>
+                                            <segue destination="Hls-CA-lyg" kind="show" id="zOV-Ts-6t2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEc-M2-lf1">
+                                <rect key="frame" x="186" y="139" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ImY-Wr-28F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nHg-Qo-EAz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysk-oS-aY1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,11 +107,43 @@
             <objects>
                 <viewController id="Mef-KR-nIy" customClass="MapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JtC-zi-sNr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rud-Qt-HWX">
+                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home" id="w7E-Kl-bJT">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="ntw-3W-QtS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Share" id="5FD-WG-9xS">
+                                        <connections>
+                                            <segue destination="Y5A-uo-L2q" kind="show" id="12k-pP-p9V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Map" id="gpQ-oh-rDs"/>
+                                    <barButtonItem title="Events" id="BmJ-0f-VRt">
+                                        <connections>
+                                            <segue destination="Hls-CA-lyg" kind="show" id="cee-yF-uSe"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBU-Ud-NGn">
+                                <rect key="frame" x="186" y="155" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="MBQ-ti-WM4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jza-x1-NKa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kig-og-ntp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,17 +154,55 @@
             <objects>
                 <viewController id="Hls-CA-lyg" customClass="EventsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A7z-JI-nCc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WKC-db-3Rq">
+                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Home" id="p2c-wQ-WjH">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="bD7-HK-mkO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Share" id="T6R-tA-ksd">
+                                        <connections>
+                                            <segue destination="Y5A-uo-L2q" kind="show" id="xav-Yu-ZwR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Map" id="3PZ-L7-NxA">
+                                        <connections>
+                                            <segue destination="Mef-KR-nIy" kind="show" id="Bv6-zx-iNv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Events" id="bnM-kD-i8k"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HD-FX-3Ef">
+                                <rect key="frame" x="186" y="154" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="c09-Ut-H2L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ttc-TE-54O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUI-Iu-hZT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2161" y="82"/>
+            <point key="canvasLocation" x="2160.8695652173915" y="81.696428571428569"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cee-yF-uSe"/>
+        <segue reference="ZE7-dd-Rp0"/>
+        <segue reference="12k-pP-p9V"/>
+        <segue reference="ntw-3W-QtS"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
