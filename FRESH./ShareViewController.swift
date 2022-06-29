@@ -15,7 +15,17 @@ class ShareViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func add_button(_ sender: Any) {
+    }
+    
+    @IBAction func recipe(_ sender: Any) {
+    }
+    
+    @IBAction func blog_post(_ sender: Any) {
+    }
+    
+    @IBAction func event_button(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
