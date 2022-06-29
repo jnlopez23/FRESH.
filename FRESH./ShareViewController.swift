@@ -27,6 +27,7 @@ class ShareViewController: UIViewController {
     @IBAction func event_button(_ sender: Any) {
     }
     /*
+     // added image to events
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

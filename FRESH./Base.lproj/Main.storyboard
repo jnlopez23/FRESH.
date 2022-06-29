@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75H-QE-lxC">
-                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <rect key="frame" x="-1" y="797" width="414" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" id="IT4-eA-drl"/>
@@ -64,7 +64,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cw1-Nt-R5X">
-                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="797" width="413" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" id="Zxj-VJ-Li3">
@@ -93,7 +93,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeX-ix-xLz">
-                                <rect key="frame" x="69" y="572" width="276" height="43"/>
+                                <rect key="frame" x="69" y="530" width="276" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="EVENT">
@@ -103,10 +103,11 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="event:" destination="Y5A-uo-L2q" eventType="touchUpInside" id="gjF-YF-LhE"/>
+                                    <segue destination="RcP-n7-dSJ" kind="show" id="Mds-Iz-IDX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-It-IVJ">
-                                <rect key="frame" x="69" y="258" width="276" height="43"/>
+                                <rect key="frame" x="69" y="147" width="276" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="RECIPE">
@@ -116,29 +117,18 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="recipe:" destination="Y5A-uo-L2q" eventType="touchUpInside" id="YEI-Gc-QYe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewy-pD-mKz">
-                                <rect key="frame" x="336" y="11" width="48" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="+">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
-                                    <color key="baseForegroundColor" red="0.63921570780000003" green="0.75294119120000003" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="add_button:" destination="Y5A-uo-L2q" eventType="touchUpInside" id="TV9-XH-CYB"/>
+                                    <segue destination="mCD-TR-7Lj" kind="show" id="7dw-Vh-T3s"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What would you like to share?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqg-Zt-A85">
-                                <rect key="frame" x="33" y="81" width="351" height="123"/>
+                                <rect key="frame" x="32" y="16" width="351" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEB-ES-OIS">
-                                <rect key="frame" x="70" y="414" width="276" height="43"/>
+                                <rect key="frame" x="69" y="321" width="276" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="BLOG POST">
@@ -148,18 +138,19 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="blog_post:" destination="Y5A-uo-L2q" eventType="touchUpInside" id="XNY-0O-zcq"/>
+                                    <segue destination="gKO-Vw-KDk" kind="show" id="3BL-L3-2IP"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recipe" translatesAutoresizingMaskIntoConstraints="NO" id="wwr-Wc-Ezs">
-                                <rect key="frame" x="87" y="307" width="240" height="99"/>
+                                <rect key="frame" x="87" y="198" width="240" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blog" translatesAutoresizingMaskIntoConstraints="NO" id="ZYf-rk-IMO">
-                                <rect key="frame" x="87" y="465" width="240" height="99"/>
+                                <rect key="frame" x="87" y="399" width="240" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="events" translatesAutoresizingMaskIntoConstraints="NO" id="UUi-k6-0XR">
-                                <rect key="frame" x="87" y="623" width="240" height="99"/>
+                                <rect key="frame" x="87" y="594" width="240" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -172,6 +163,82 @@
             </objects>
             <point key="canvasLocation" x="711.59420289855075" y="81.696428571428569"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="BDy-BM-T2x">
+            <objects>
+                <tableViewController id="mCD-TR-7Lj" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="tfz-iU-QIo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="J5r-aM-3QZ">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J5r-aM-3QZ" id="c5v-Cd-xmn">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mCD-TR-7Lj" id="vJi-f4-xdZ"/>
+                            <outlet property="delegate" destination="mCD-TR-7Lj" id="49H-hq-nMC"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems>
+                        <barButtonItem title="Item" width="418.5" id="ND8-bu-Lat"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="yRN-zv-9VP"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJ3-RO-I09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712" y="802"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="iXV-E3-pIT">
+            <objects>
+                <tableViewController id="gKO-Vw-KDk" sceneMemberID="viewController">
+                    <toolbarItems>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="t8Y-N4-4Gf"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="hsP-dn-dgZ"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i3l-Tp-MEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="1470"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="WQQ-iq-L7z">
+            <objects>
+                <tableViewController id="RcP-n7-dSJ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Ojf-AG-CZk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="foq-ie-mIq">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="foq-ie-mIq" id="egR-pQ-x9s">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RcP-n7-dSJ" id="maH-g9-zEZ"/>
+                            <outlet property="delegate" destination="RcP-n7-dSJ" id="JXg-tX-8dk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="DIk-Bu-2Vk"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHG-zd-KGe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="2142"/>
+        </scene>
         <!--Map View Controller-->
         <scene sceneID="lKI-b4-znH">
             <objects>
@@ -181,7 +248,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rud-Qt-HWX">
-                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <rect key="frame" x="-2" y="798" width="417" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" id="w7E-Kl-bJT">
@@ -228,7 +295,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WKC-db-3Rq">
-                                <rect key="frame" x="0.0" y="798" width="414" height="44"/>
+                                <rect key="frame" x="-1" y="797" width="414" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" id="p2c-wQ-WjH">
@@ -275,7 +342,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blog" width="1614" height="612"/>
-        <image name="events" width="334" height="256"/>
+        <image name="events" width="334" height="240"/>
         <image name="recipe" width="876" height="206"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
