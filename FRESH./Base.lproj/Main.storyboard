@@ -547,6 +547,9 @@
                         <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="jza-x1-NKa"/>
+                    <connections>
+                        <outlet property="mapView" destination="uGS-7w-gOQ" id="xr2-Be-jbB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kig-og-ntp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -703,14 +706,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Tqj-Ch-JeY"/>
-        <segue reference="r5r-tc-npc"/>
+        <segue reference="SrG-y1-UTK"/>
+        <segue reference="cee-yF-uSe"/>
         <segue reference="Bv6-zx-iNv"/>
         <segue reference="xAL-nY-hNh"/>
         <segue reference="THK-4u-2M9"/>
         <segue reference="6NB-B6-AE4"/>
-        <segue reference="xav-Yu-ZwR"/>
-        <segue reference="bD7-HK-mkO"/>
+        <segue reference="12k-pP-p9V"/>
+        <segue reference="ntw-3W-QtS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blog" width="1042" height="342"/>
