@@ -17,11 +17,11 @@
 		BD0916D1286C988C00B31022 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D0286C988C00B31022 /* ShareViewController.swift */; };
 		BD0916D3286C98B200B31022 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D2286C98B200B31022 /* MapViewController.swift */; };
 		BD0916D5286C98CC00B31022 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D4286C98CC00B31022 /* EventsViewController.swift */; };
-		BD22D5A8286DE94C00E997F9 /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5A7286DE94C00E997F9 /* RecipesTableViewController.swift */; };
-		BD22D5AA286DE98500E997F9 /* BlogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5A9286DE98500E997F9 /* BlogTableViewController.swift */; };
-		BD22D5AC286DE9A800E997F9 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */; };
 		BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */; };
 		BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */; };
+		BD29CEF2286E193300BC783F /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */; };
+		BD29CEF4286E195400BC783F /* BlogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF3286E195400BC783F /* BlogTableViewController.swift */; };
+		BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */; };
 		BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,11 +38,11 @@
 		BD0916D0286C988C00B31022 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		BD0916D2286C98B200B31022 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BD0916D4286C98CC00B31022 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
-		BD22D5A7286DE94C00E997F9 /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
-		BD22D5A9286DE98500E997F9 /* BlogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewController.swift; sourceTree = "<group>"; };
-		BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_class.swift; sourceTree = "<group>"; };
 		BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteOutRecipeViewController.swift; sourceTree = "<group>"; };
+		BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		BD29CEF3286E195400BC783F /* BlogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewController.swift; sourceTree = "<group>"; };
+		BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,12 +80,12 @@
 				BD038AE7286B8FC0001144DB /* SceneDelegate.swift */,
 				BD038AE9286B8FC0001144DB /* ViewController.swift */,
 				BD038AEB286B8FC0001144DB /* Main.storyboard */,
+				BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */,
+				BD29CEF3286E195400BC783F /* BlogTableViewController.swift */,
+				BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */,
 				BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */,
 				BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */,
 				BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */,
-				BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */,
-				BD22D5A9286DE98500E997F9 /* BlogTableViewController.swift */,
-				BD22D5A7286DE94C00E997F9 /* RecipesTableViewController.swift */,
 				BD0916D4286C98CC00B31022 /* EventsViewController.swift */,
 				BD0916D2286C98B200B31022 /* MapViewController.swift */,
 				BD0916D0286C988C00B31022 /* ShareViewController.swift */,
@@ -169,18 +169,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD038AEA286B8FC0001144DB /* ViewController.swift in Sources */,
+				BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */,
 				BD0916D3286C98B200B31022 /* MapViewController.swift in Sources */,
-				BD22D5AA286DE98500E997F9 /* BlogTableViewController.swift in Sources */,
 				BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */,
-				BD22D5A8286DE94C00E997F9 /* RecipesTableViewController.swift in Sources */,
 				BD038AE6286B8FC0001144DB /* AppDelegate.swift in Sources */,
 				BD0916D1286C988C00B31022 /* ShareViewController.swift in Sources */,
 				BD0916D5286C98CC00B31022 /* EventsViewController.swift in Sources */,
 				BD038AF0286B8FC0001144DB /* FRESH_.xcdatamodeld in Sources */,
-				BD22D5AC286DE9A800E997F9 /* EventsTableViewController.swift in Sources */,
 				BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */,
+				BD29CEF2286E193300BC783F /* RecipesTableViewController.swift in Sources */,
 				BD038AE8286B8FC0001144DB /* SceneDelegate.swift in Sources */,
 				BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */,
+				BD29CEF4286E195400BC783F /* BlogTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

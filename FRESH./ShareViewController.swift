@@ -8,6 +8,7 @@
 import UIKit
 
 class ShareViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,16 +16,15 @@ class ShareViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func add_button(_ sender: Any) {
-    }
+  
     
-    @IBAction func recipe(_ sender: Any) {
+    @IBAction func recipe_button(_ sender: Any) {
+        performSegue(withIdentifier: "thisWillWorkTwo", sender: nil)
+
     }
-    
-    @IBAction func blog_post(_ sender: Any) {
+    @IBAction func blog_button(_ sender: Any) {
     }
-    
-    @IBAction func event_button(_ sender: Any) {
+    @IBAction func events_button(_ sender: Any) {
     }
     /*
      // added image to events
