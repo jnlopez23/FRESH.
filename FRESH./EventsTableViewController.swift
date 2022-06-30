@@ -2,7 +2,7 @@
 //  EventsTableViewController.swift
 //  FRESH.
 //
-//  Created by Scholar on 6/29/22.
+//  Created by Scholar on 6/30/22.
 //
 
 import UIKit

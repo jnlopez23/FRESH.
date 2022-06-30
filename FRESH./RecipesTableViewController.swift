@@ -1,13 +1,13 @@
 //
-//  RecipeTableViewController.swift
+//  RecipesTableViewController.swift
 //  FRESH.
 //
-//  Created by Scholar on 6/29/22.
+//  Created by Scholar on 6/30/22.
 //
 
 import UIKit
 
-class RecipeTableViewController: UITableViewController {
+class RecipesTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,10 @@ class RecipeTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-
+    
+    
+  
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
