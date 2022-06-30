@@ -22,6 +22,7 @@
 		BD22D5AC286DE9A800E997F9 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */; };
 		BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */; };
 		BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */; };
+		BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_class.swift; sourceTree = "<group>"; };
 		BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteOutRecipeViewController.swift; sourceTree = "<group>"; };
+		BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				BD038AE7286B8FC0001144DB /* SceneDelegate.swift */,
 				BD038AE9286B8FC0001144DB /* ViewController.swift */,
 				BD038AEB286B8FC0001144DB /* Main.storyboard */,
+				BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */,
 				BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */,
 				BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */,
 				BD22D5AB286DE9A800E997F9 /* EventsTableViewController.swift */,
@@ -175,6 +178,7 @@
 				BD0916D5286C98CC00B31022 /* EventsViewController.swift in Sources */,
 				BD038AF0286B8FC0001144DB /* FRESH_.xcdatamodeld in Sources */,
 				BD22D5AC286DE9A800E997F9 /* EventsTableViewController.swift in Sources */,
+				BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */,
 				BD038AE8286B8FC0001144DB /* SceneDelegate.swift in Sources */,
 				BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */,
 			);

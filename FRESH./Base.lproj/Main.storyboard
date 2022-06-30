@@ -16,23 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="QgT-WL-4iy">
-                                <rect key="frame" x="8" y="753" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="Khi-ve-CeT">
-                                <rect key="frame" x="8" y="753" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Greeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-d5-gcd">
-                                <rect key="frame" x="31" y="44" width="113" height="34"/>
+                                <rect key="frame" x="33" y="66" width="113" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlA-9t-JyK">
-                                <rect key="frame" x="31" y="86" width="349" height="105"/>
+                                <rect key="frame" x="33" y="134" width="349" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.63921570780000003" green="0.75294119120000003" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.63921570780000003" green="0.75294119120000003" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -43,15 +35,15 @@
                                     <color key="baseBackgroundColor" red="0.63921570780000003" green="0.75294119120000003" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="quote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dhy-c8-I9F"/>
+                                    <action selector="quote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o2L-Yn-eKE"/>
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75H-QE-lxC">
-                                <rect key="frame" x="-2" y="743" width="415" height="45"/>
+                                <rect key="frame" x="-3" y="741" width="416" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
-                                    <barButtonItem title="Home" width="125.5" id="IT4-eA-drl"/>
+                                    <barButtonItem title="Home" width="117.5" id="IT4-eA-drl"/>
                                     <barButtonItem title="Share" id="NuB-dR-sSF">
                                         <connections>
                                             <segue destination="Y5A-uo-L2q" kind="show" id="3HX-EM-vqu"/>
@@ -67,38 +59,31 @@
                                             <segue destination="Hls-CA-lyg" kind="show" id="r5r-tc-npc"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Profile" id="Ozo-pw-aHL">
+                                        <connections>
+                                            <segue destination="xpb-In-QsW" kind="show" id="g7i-So-Hdi"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="txv-Jg-xkn">
-                                <rect key="frame" x="23" y="756" width="83" height="69"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NAME!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOa-2K-un3">
+                                <rect key="frame" x="156" y="65" width="102" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="ZI1-AF-H8H">
-                                <rect key="frame" x="114" y="757" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="events-1" translatesAutoresizingMaskIntoConstraints="NO" id="GdY-yn-qgl">
-                                <rect key="frame" x="293" y="753" width="101" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="DR6-pT-wiJ">
-                                <rect key="frame" x="205" y="753" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.97254908080000002" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="I1H-iR-CaT"/>
                     <connections>
-                        <outlet property="greet" destination="dSD-d5-gcd" id="l7m-vN-4Jo"/>
-                        <outlet property="quote2" destination="ZlA-9t-JyK" id="f5T-1N-cDm"/>
+                        <outlet property="changeName" destination="yOa-2K-un3" id="aG8-zG-nwp"/>
+                        <outlet property="greet" destination="dSD-d5-gcd" id="dt9-8b-HCN"/>
+                        <outlet property="quote2" destination="ZlA-9t-JyK" id="iVC-iL-uLT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -181,7 +166,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cw1-Nt-R5X">
-                                <rect key="frame" x="1" y="743" width="413" height="45"/>
+                                <rect key="frame" x="0.0" y="741" width="412" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
@@ -190,37 +175,26 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="WyI-jW-R5e"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Share" width="107" id="xzv-W4-gKK"/>
+                                    <barButtonItem title="Share" width="86" id="xzv-W4-gKK"/>
                                     <barButtonItem title="Map" width="112.5" id="UgG-bM-Sv1">
                                         <connections>
                                             <segue destination="Mef-KR-nIy" kind="show" id="ZE7-dd-Rp0"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Events" width="118" id="2u2-bF-g4k">
+                                    <barButtonItem title="Events" id="2u2-bF-g4k">
                                         <connections>
                                             <segue destination="Hls-CA-lyg" kind="show" id="zOV-Ts-6t2"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Profile" id="lfn-yC-iXo">
+                                        <connections>
+                                            <segue destination="xpb-In-QsW" kind="show" id="gfS-88-mdK"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
-                                <color key="tintColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-k4-Slm">
-                                <rect key="frame" x="20" y="755" width="83" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="events-1" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-ip-hW7">
-                                <rect key="frame" x="295" y="755" width="101" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="2so-By-yWn">
-                                <rect key="frame" x="111" y="755" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="XlJ-43-Sdn">
-                                <rect key="frame" x="207" y="755" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ImY-Wr-28F"/>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -403,28 +377,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="Da2-Tq-vCt">
-                                <rect key="frame" x="20" y="756" width="83" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="bsd-y6-H4L">
-                                <rect key="frame" x="111" y="757" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="I9Z-Oj-66o">
-                                <rect key="frame" x="199" y="757" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="events-1" translatesAutoresizingMaskIntoConstraints="NO" id="aVh-4G-k9e">
-                                <rect key="frame" x="287" y="756" width="101" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rud-Qt-HWX">
-                                <rect key="frame" x="0.0" y="744" width="414" height="44"/>
+                                <rect key="frame" x="-2" y="741" width="415" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
@@ -444,8 +398,13 @@
                                             <segue destination="Hls-CA-lyg" kind="show" id="cee-yF-uSe"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Profile" id="PdT-L5-vnv">
+                                        <connections>
+                                            <segue destination="xpb-In-QsW" kind="show" id="SrG-y1-UTK"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
-                                <color key="tintColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
                         </subviews>
@@ -473,44 +432,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="njK-aK-aGp">
-                                <rect key="frame" x="20" y="757" width="83" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="B9O-lk-hC9">
-                                <rect key="frame" x="111" y="757" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="vGH-Gu-fs6">
-                                <rect key="frame" x="199" y="757" width="80" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="events-1" translatesAutoresizingMaskIntoConstraints="NO" id="1uW-cB-VXw">
-                                <rect key="frame" x="287" y="757" width="101" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WKC-db-3Rq">
-                                <rect key="frame" x="0.0" y="743" width="414" height="45"/>
+                                <rect key="frame" x="-1" y="741" width="414" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
-                                    <barButtonItem title="Home" width="113.5" id="p2c-wQ-WjH">
+                                    <barButtonItem title="Home" width="103.5" id="p2c-wQ-WjH">
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="bD7-HK-mkO"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Share" width="77" id="T6R-tA-ksd">
+                                    <barButtonItem title="Share" id="T6R-tA-ksd">
                                         <connections>
                                             <segue destination="Y5A-uo-L2q" kind="show" id="xav-Yu-ZwR"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Map" width="127.5" id="3PZ-L7-NxA">
+                                    <barButtonItem title="Map" width="90.5" id="3PZ-L7-NxA">
                                         <connections>
                                             <segue destination="Mef-KR-nIy" kind="show" id="Bv6-zx-iNv"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem title="Events" id="bnM-kD-i8k"/>
+                                    <barButtonItem title="Profile" id="y1K-Id-6PU">
+                                        <connections>
+                                            <segue destination="xpb-In-QsW" kind="show" id="Tqj-Ch-JeY"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
                         </subviews>
@@ -524,21 +473,59 @@
             </objects>
             <point key="canvasLocation" x="2160.8695652173915" y="81.696428571428569"/>
         </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="uEg-gV-xRc">
+            <objects>
+                <viewController id="xpb-In-QsW" customClass="ProfileViewController" customModule="FRESH_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SeD-PI-XBB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kpp-y8-78Y">
+                                <rect key="frame" x="0.0" y="742" width="414" height="45"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <barButtonItem title="Home" width="113.5" id="ags-Ni-Zqk">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="IMu-8H-dqF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </toolbar>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type in your first name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-Xo-ibs">
+                                <rect key="frame" x="47" y="146" width="320" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XbA-GZ-uXi"/>
+                        <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xuo-v1-iqf"/>
+                    <connections>
+                        <outlet property="userName" destination="2oZ-Xo-ibs" id="GLQ-32-hOu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51I-0A-KnH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2898.5507246376815" y="81.696428571428569"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="r5r-tc-npc"/>
-        <segue reference="pRQ-eY-Umm"/>
-        <segue reference="3HX-EM-vqu"/>
+        <segue reference="gfS-88-mdK"/>
+        <segue reference="zOV-Ts-6t2"/>
+        <segue reference="ZE7-dd-Rp0"/>
+        <segue reference="xav-Yu-ZwR"/>
         <segue reference="WyI-jW-R5e"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blog" width="1614" height="612"/>
         <image name="events" width="334" height="240"/>
-        <image name="events-1" width="180" height="180"/>
-        <image name="home" width="180" height="180"/>
-        <image name="map" width="180" height="180"/>
         <image name="recipe" width="876" height="206"/>
-        <image name="share" width="180" height="180"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
