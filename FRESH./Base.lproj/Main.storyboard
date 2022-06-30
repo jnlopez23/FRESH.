@@ -370,13 +370,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBU-Ud-NGn">
-                                <rect key="frame" x="186" y="155" width="34" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rud-Qt-HWX">
                                 <rect key="frame" x="-2" y="741" width="415" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -407,6 +400,10 @@
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.99215686319999996" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uGS-7w-gOQ">
+                                <rect key="frame" x="0.0" y="-45" width="414" height="786"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MBQ-ti-WM4"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.97647058959999999" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -516,11 +513,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gfS-88-mdK"/>
-        <segue reference="zOV-Ts-6t2"/>
-        <segue reference="ZE7-dd-Rp0"/>
-        <segue reference="xav-Yu-ZwR"/>
-        <segue reference="WyI-jW-R5e"/>
+        <segue reference="SrG-y1-UTK"/>
+        <segue reference="cee-yF-uSe"/>
+        <segue reference="pRQ-eY-Umm"/>
+        <segue reference="12k-pP-p9V"/>
+        <segue reference="ntw-3W-QtS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blog" width="1614" height="612"/>
