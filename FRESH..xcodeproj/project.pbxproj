@@ -15,13 +15,13 @@
 		BD038AF2286B8FC1001144DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD038AF1286B8FC1001144DB /* Assets.xcassets */; };
 		BD038AF5286B8FC1001144DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD038AF3286B8FC1001144DB /* LaunchScreen.storyboard */; };
 		BD0916D1286C988C00B31022 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D0286C988C00B31022 /* ShareViewController.swift */; };
-		BD0916D3286C98B200B31022 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D2286C98B200B31022 /* MapViewController.swift */; };
 		BD0916D5286C98CC00B31022 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0916D4286C98CC00B31022 /* EventsViewController.swift */; };
 		BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */; };
 		BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */; };
 		BD29CEF2286E193300BC783F /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */; };
 		BD29CEF4286E195400BC783F /* BlogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF3286E195400BC783F /* BlogTableViewController.swift */; };
 		BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */; };
+		BD657EBB286F3A96003E4F9A /* I'MTHEMATTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */; };
 		BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */; };
 		BDE6B824286E479800A12FED /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B823286E479800A12FED /* AnimationViewController.swift */; };
 		BDE6B826286F36FA00A12FED /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */; };
@@ -41,13 +41,13 @@
 		BD038AF4286B8FC1001144DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD038AF6286B8FC1001144DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0916D0286C988C00B31022 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		BD0916D2286C98B200B31022 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BD0916D4286C98CC00B31022 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_class.swift; sourceTree = "<group>"; };
 		BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteOutRecipeViewController.swift; sourceTree = "<group>"; };
 		BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 		BD29CEF3286E195400BC783F /* BlogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewController.swift; sourceTree = "<group>"; };
 		BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "I'MTHEMATTViewController.swift"; sourceTree = "<group>"; };
 		BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BDE6B823286E479800A12FED /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +90,7 @@
 				BD038AE5286B8FC0001144DB /* AppDelegate.swift */,
 				BDE6B823286E479800A12FED /* AnimationViewController.swift */,
 				BD038AE7286B8FC0001144DB /* SceneDelegate.swift */,
+				BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */,
 				BD038AE9286B8FC0001144DB /* ViewController.swift */,
 				BD038AEB286B8FC0001144DB /* Main.storyboard */,
 				BDE6B82B286F378D00A12FED /* OtherViewController.swift */,
@@ -102,7 +103,6 @@
 				BD22D5AF286DF5E900E997F9 /* WriteOutRecipeViewController.swift */,
 				BD22D5AD286DECAA00E997F9 /* Recipe_class.swift */,
 				BD0916D4286C98CC00B31022 /* EventsViewController.swift */,
-				BD0916D2286C98B200B31022 /* MapViewController.swift */,
 				BD0916D0286C988C00B31022 /* ShareViewController.swift */,
 				BD038AF1286B8FC1001144DB /* Assets.xcassets */,
 				BD038AF3286B8FC1001144DB /* LaunchScreen.storyboard */,
@@ -185,8 +185,8 @@
 			files = (
 				BD038AEA286B8FC0001144DB /* ViewController.swift in Sources */,
 				BDE6B82C286F378D00A12FED /* OtherViewController.swift in Sources */,
+				BD657EBB286F3A96003E4F9A /* I'MTHEMATTViewController.swift in Sources */,
 				BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */,
-				BD0916D3286C98B200B31022 /* MapViewController.swift in Sources */,
 				BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */,
 				BDE6B826286F36FA00A12FED /* UpcomingEventsViewController.swift in Sources */,
 				BD038AE6286B8FC0001144DB /* AppDelegate.swift in Sources */,

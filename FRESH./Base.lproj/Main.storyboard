@@ -568,10 +568,10 @@
             </objects>
             <point key="canvasLocation" x="2218.840579710145" y="1591.7410714285713"/>
         </scene>
-        <!--Map View Controller-->
+        <!--View Controller-->
         <scene sceneID="lKI-b4-znH">
             <objects>
-                <viewController id="Mef-KR-nIy" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController id="Mef-KR-nIy" customClass="I_MTHEMATTViewController" customModule="FRESH_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JtC-zi-sNr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -616,7 +616,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jza-x1-NKa"/>
                     <connections>
-                        <outlet property="mapView" destination="uGS-7w-gOQ" id="xr2-Be-jbB"/>
+                        <outlet property="mapView" destination="uGS-7w-gOQ" id="gj2-K3-hNG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kig-og-ntp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -906,13 +906,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g7i-So-Hdi"/>
-        <segue reference="r5r-tc-npc"/>
-        <segue reference="pRQ-eY-Umm"/>
+        <segue reference="Tqj-Ch-JeY"/>
+        <segue reference="cee-yF-uSe"/>
+        <segue reference="Bv6-zx-iNv"/>
         <segue reference="xAL-nY-hNh"/>
         <segue reference="THK-4u-2M9"/>
         <segue reference="6NB-B6-AE4"/>
-        <segue reference="3HX-EM-vqu"/>
+        <segue reference="xav-Yu-ZwR"/>
         <segue reference="bD7-HK-mkO"/>
     </inferredMetricsTieBreakers>
     <resources>
