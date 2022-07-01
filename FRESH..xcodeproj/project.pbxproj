@@ -23,6 +23,7 @@
 		BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */; };
 		BD657EBB286F3A96003E4F9A /* I'MTHEMATTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */; };
 		BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */; };
+		BDB2AFE2286F62DE00E6B037 /* AddBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2AFE1286F62DE00E6B037 /* AddBlogViewController.swift */; };
 		BDE6B824286E479800A12FED /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B823286E479800A12FED /* AnimationViewController.swift */; };
 		BDE6B826286F36FA00A12FED /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */; };
 		BDE6B828286F373000A12FED /* FarmersMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */; };
@@ -49,6 +50,7 @@
 		BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "I'MTHEMATTViewController.swift"; sourceTree = "<group>"; };
 		BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BDB2AFE1286F62DE00E6B037 /* AddBlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBlogViewController.swift; sourceTree = "<group>"; };
 		BDE6B823286E479800A12FED /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
 		BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		BD038AD9286B8FBF001144DB = {
 			isa = PBXGroup;
 			children = (
+				BDB2AFE1286F62DE00E6B037 /* AddBlogViewController.swift */,
 				BD038AE4286B8FC0001144DB /* FRESH. */,
 				BD038AE3286B8FC0001144DB /* Products */,
 			);
@@ -200,6 +203,7 @@
 				BDE6B828286F373000A12FED /* FarmersMarketViewController.swift in Sources */,
 				BDE6B82A286F376300A12FED /* FoodPantriesViewController.swift in Sources */,
 				BD22D5B0286DF5E900E997F9 /* WriteOutRecipeViewController.swift in Sources */,
+				BDB2AFE2286F62DE00E6B037 /* AddBlogViewController.swift in Sources */,
 				BD29CEF4286E195400BC783F /* BlogTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
