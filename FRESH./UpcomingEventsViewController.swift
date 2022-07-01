@@ -6,8 +6,8 @@
 //
 
 import UIKit
-
-class UpcomingEventsViewController: UIViewController {
+import SafariServices
+class UpcomingEventsViewController: UIViewController, SFSafariViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,16 @@ class UpcomingEventsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func findaevent(_ sender: Any) {
+        let safariVC = SFSafariViewController(url: NSURL(string: "https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html")! as URL)
+        self.present(safariVC, animated: true, completion: nil)
+        safariVC.delegate = self
+      }
+func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+      }
 
+    
     /*
     // MARK: - Navigation
 
