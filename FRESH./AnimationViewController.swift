@@ -14,6 +14,13 @@ class AnimationViewController: UIViewController {
     @IBOutlet weak var image3: UIImageView!
     @IBOutlet weak var image4: UIImageView!
     @IBOutlet weak var image5: UIImageView!
+    @IBOutlet weak var image6: UIImageView!
+    @IBOutlet weak var image10: UIImageView!
+    @IBOutlet weak var image9: UIImageView!
+    @IBOutlet weak var image8: UIImageView!
+    @IBOutlet weak var image7: UIImageView!
+    
+    @IBOutlet weak var image11: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,7 +41,25 @@ class AnimationViewController: UIViewController {
             self.image4.frame.origin.y -= -100
         }, completion: nil)
         UIView.animate(withDuration: 1, animations: {
-            self.image4.frame.origin.y -= -50
+            self.image5.frame.origin.y -= -50
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image6.frame.origin.y -= -1000
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image7.frame.origin.y -= -25
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image8.frame.origin.y -= -500
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image9.frame.origin.y -= -100
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image10.frame.origin.y -= -250
+        }, completion: nil)
+        UIView.animate(withDuration: 1, animations: {
+            self.image11.frame.origin.y -= -1000
         }, completion: nil)
     }
     
