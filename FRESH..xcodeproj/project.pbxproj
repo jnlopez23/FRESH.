@@ -24,7 +24,7 @@
 		BD657EBB286F3A96003E4F9A /* I'MTHEMATTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */; };
 		BD6934D5286DFDB8007606C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */; };
 		BDE6B824286E479800A12FED /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B823286E479800A12FED /* AnimationViewController.swift */; };
-		BDE6B826286F36FA00A12FED /* UpcomingEventsViewController in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B825286F36FA00A12FED /* UpcomingEventsViewController */; };
+		BDE6B826286F36FA00A12FED /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */; };
 		BDE6B828286F373000A12FED /* FarmersMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */; };
 		BDE6B82A286F376300A12FED /* FoodPantriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B829286F376300A12FED /* FoodPantriesViewController.swift */; };
 		BDE6B82C286F378D00A12FED /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B82B286F378D00A12FED /* OtherViewController.swift */; };
@@ -50,7 +50,7 @@
 		BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "I'MTHEMATTViewController.swift"; sourceTree = "<group>"; };
 		BD6934D4286DFDB8007606C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BDE6B823286E479800A12FED /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
-		BDE6B825286F36FA00A12FED /* UpcomingEventsViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = UpcomingEventsViewController; sourceTree = "<group>"; };
+		BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
 		BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketViewController.swift; sourceTree = "<group>"; };
 		BDE6B829286F376300A12FED /* FoodPantriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPantriesViewController.swift; sourceTree = "<group>"; };
 		BDE6B82B286F378D00A12FED /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				BDE6B82B286F378D00A12FED /* OtherViewController.swift */,
 				BDE6B829286F376300A12FED /* FoodPantriesViewController.swift */,
 				BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */,
-				BDE6B825286F36FA00A12FED /* UpcomingEventsViewController */,
+				BDE6B825286F36FA00A12FED /* UpcomingEventsViewController.swift */,
 				BD29CEF5286E196D00BC783F /* EventsTableViewController.swift */,
 				BD29CEF3286E195400BC783F /* BlogTableViewController.swift */,
 				BD29CEF1286E193300BC783F /* RecipesTableViewController.swift */,
@@ -188,7 +188,7 @@
 				BD657EBB286F3A96003E4F9A /* I'MTHEMATTViewController.swift in Sources */,
 				BD29CEF6286E196D00BC783F /* EventsTableViewController.swift in Sources */,
 				BD22D5AE286DECAA00E997F9 /* Recipe_class.swift in Sources */,
-				BDE6B826286F36FA00A12FED /* UpcomingEventsViewController in Sources */,
+				BDE6B826286F36FA00A12FED /* UpcomingEventsViewController.swift in Sources */,
 				BD038AE6286B8FC0001144DB /* AppDelegate.swift in Sources */,
 				BD0916D1286C988C00B31022 /* ShareViewController.swift in Sources */,
 				BD0916D5286C98CC00B31022 /* EventsViewController.swift in Sources */,
