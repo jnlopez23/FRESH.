@@ -72,7 +72,6 @@
 		BD038AD9286B8FBF001144DB = {
 			isa = PBXGroup;
 			children = (
-				BDB2AFE1286F62DE00E6B037 /* AddBlogViewController.swift */,
 				BD038AE4286B8FC0001144DB /* FRESH. */,
 				BD038AE3286B8FC0001144DB /* Products */,
 			);
@@ -95,6 +94,7 @@
 				BD657EBA286F3A96003E4F9A /* I'MTHEMATTViewController.swift */,
 				BD038AE9286B8FC0001144DB /* ViewController.swift */,
 				BD038AEB286B8FC0001144DB /* Main.storyboard */,
+				BDB2AFE1286F62DE00E6B037 /* AddBlogViewController.swift */,
 				BDE6B82B286F378D00A12FED /* OtherViewController.swift */,
 				BDE6B829286F376300A12FED /* FoodPantriesViewController.swift */,
 				BDE6B827286F373000A12FED /* FarmersMarketViewController.swift */,
