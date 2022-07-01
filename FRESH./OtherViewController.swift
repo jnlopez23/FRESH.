@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import SafariServices
 
-class OtherViewController: UIViewController {
+class OtherViewController: UIViewController, SFSafariViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +16,16 @@ class OtherViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func urbanGrowers(_ sender: Any) {
+        let safariVC = SFSafariViewController(url: NSURL(string: "https://urbangrowerscollective.org/")! as URL)
+        self.present(safariVC, animated: true, completion: nil)
+        safariVC.delegate = self
+      }
+func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+      }
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -26,4 +36,4 @@ class OtherViewController: UIViewController {
     }
     */
 
-}
+

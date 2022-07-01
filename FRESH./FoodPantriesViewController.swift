@@ -6,8 +6,8 @@
 //
 
 import UIKit
-
-class FoodPantriesViewController: UIViewController {
+import SafariServices
+class FoodPantriesViewController: UIViewController, SFSafariViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,16 @@ class FoodPantriesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func foodPantries(_ sender: Any) {
+        let safariVC = SFSafariViewController(url: NSURL(string: "https://foodfinder.us/")! as URL)
+        self.present(safariVC, animated: true, completion: nil)
+        safariVC.delegate = self
+      }
+func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+      }
+    
+    
     /*
     // MARK: - Navigation
 
